@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Netflix Mock Page
+
+In this page there are 2 types of lists: My Lists and Recommendation Litsts. You can remove a film from your lists and add a film to the lists by clicking the button when the mouse is hovering on the film.
+
 ## Available Scripts
 
 In the project directory, you can run:

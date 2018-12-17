@@ -1,0 +1,47 @@
+.Card {
+  display: inline-block;
+  background-color: lightgoldenrodyellow;
+  margin: 8px;
+  width: 150px;
+  transition: all .2s ease-in-out;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.customButton {
+  display: none;
+  border: none;
+  padding: 0.2rem 0.4rem;
+  margin-top: 5px;
+  text-decoration: none;
+  background: #0069ed;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.customButton:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.customButton:active {
+  transform: scale(0.99);
+}
+
+.Card:hover .customButton{
+  transform: scale(1.1);
+  display: inline-block;
+}
+
+.Image {
+  background-size: cover;
+  width: 100%;
+  padding-top: 148%
+}
+
