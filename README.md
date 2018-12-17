@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In this page there are 2 types of lists: My Lists and Recommendation Litsts. You can remove a film from your lists and add a film to the lists by clicking the button when the mouse is hovering on the film.
 
+Before running the project, please make sure that you have all the dependencies. You can run **npm insatll** to get all the required dependencies.
+
 ## Available Scripts
 
 In the project directory, you can run:
