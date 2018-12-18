@@ -8,11 +8,9 @@ const initialState = {
 const mylists = (state = initialState, action) => {
   switch(action.type) {
     case 'ADD_FILM':
-      console.log('mylist add action received');
-      console.log(action);
       return {
         ...state,
-        mylists: [...(state.mylists), action.payload]
+        mylists: [...state.mylists, action.payload]
       };
     case 'DELETE_FILM':
       return {

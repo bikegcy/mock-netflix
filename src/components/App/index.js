@@ -18,9 +18,6 @@ class App extends Component {
         <MyLists 
           lists = {this.props.mylists.mylists}
         />
-        <div>
-
-        </div>
         <RecommLists
           lists = {this.props.recommLists.recommLists}
         />
